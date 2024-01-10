@@ -1,4 +1,5 @@
 import { Button, Grid, TextField, Typography } from '@mui/material';
+import { SaveOutlined } from '@mui/icons-material';
 import { ImageGallery } from '../components';
 
 
@@ -16,7 +17,7 @@ export const NoteView = () => {
       </Grid>
       <Grid item>
         <Button color='primary' sx={{ padding: 2 }}>
-          {/* <SaveOutlined sx={{ fontSize: 30, mr: 1 }} /> */}
+          <SaveOutlined sx={{ fontSize: 30, mr: 1 }} />
         </Button>
       </Grid>
 
